@@ -9,5 +9,7 @@ public class Main {
         second.horizontalLine(8);
         TriangleExercises third = new TriangleExercises();
         third.verticalLine(3);
+        TriangleExercises fourth = new TriangleExercises();
+        fourth.rightTriangle(3);
     }
 }
