@@ -18,5 +18,13 @@ public class TriangleExercises {
         System.out.println("");
     }
 
+    void verticalLine(int n) {
+        System.out.println("3rd task: vertical line of asterisks");
+
+        for (int i = 0; i < n; i ++) {
+            System.out.println(star);
+        }
+    }
+
 
 }

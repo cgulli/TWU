@@ -7,5 +7,7 @@ public class Main {
         first.asterisk();
         TriangleExercises second = new TriangleExercises();
         second.horizontalLine(8);
+        TriangleExercises third = new TriangleExercises();
+        third.verticalLine(3);
     }
 }
