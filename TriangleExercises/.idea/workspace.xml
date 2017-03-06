@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d797d550-68e6-4fb4-94e2-3080be5acbdc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../~DiamondExercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../~DiamondExercises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/com/thoughtworks/FizzBuzz.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/com/thoughtworks/FizzBuzz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/com/thoughtworks/Main.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/com/thoughtworks/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -544,12 +546,12 @@
       <workItem from="1488557043438" duration="310000" />
       <workItem from="1488557815745" duration="2237000" />
       <workItem from="1488562282212" duration="65000" />
-      <workItem from="1488562370068" duration="3363000" />
+      <workItem from="1488562370068" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6416000" />
+    <option name="totallyTimeSpent" value="6911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
