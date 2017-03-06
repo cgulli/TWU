@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d797d550-68e6-4fb4-94e2-3080be5acbdc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrimeNumbers/src/PrimeNumbMachine.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PrimeNumbers/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PrimeNumbers/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PrimeNumbers/src/com/thoughtworks/Main.java" afterPath="$PROJECT_DIR$/../PrimeNumbers/src/com/thoughtworks/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -39,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleExercises.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TriangleExercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/TriangleExercises.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -544,12 +546,12 @@
       <workItem from="1488557043438" duration="310000" />
       <workItem from="1488557815745" duration="2237000" />
       <workItem from="1488562282212" duration="65000" />
-      <workItem from="1488562370068" duration="4256000" />
+      <workItem from="1488562370068" duration="5147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7309000" />
+    <option name="totallyTimeSpent" value="8200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,18 +676,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TriangleExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TriangleExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
