@@ -34,10 +34,10 @@ public class DiamondExercises {
 
     void printDiamond(int n){
         isoTriangle(n);
-        printLowerTriangle(n - 1);
+        lowerTriangle(n - 1);
     }
 
-    void printLowerTriangle(int n) {
+    void lowerTriangle(int n) {
         int starCounter = n;
 
         for (int k = 1; k <= n; k ++){
@@ -50,6 +50,12 @@ public class DiamondExercises {
             starCounter --;
             System.out.println("");
         }
+    }
+
+    void nameDiamond(int n, String name) {
+        isoTriangle(n-1);
+        System.out.println(name);
+        lowerTriangle(n-1);
     }
 }
 
