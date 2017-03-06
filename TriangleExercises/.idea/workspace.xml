@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d797d550-68e6-4fb4-94e2-3080be5acbdc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrimeNumbers/src/PrimeNumbMachine.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PrimeNumbers/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PrimeNumbers/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PrimeNumbers/src/com/thoughtworks/Main.java" afterPath="$PROJECT_DIR$/../PrimeNumbers/src/com/thoughtworks/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +81,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-237" />
-    <option name="y" value="183" />
+    <option name="x" value="211" />
+    <option name="y" value="157" />
     <option name="width" value="1193" />
     <option name="height" value="790" />
   </component>
@@ -563,8 +561,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-237" y="183" width="1193" height="790" extended-state="0" />
-    <editor active="true" />
+    <frame x="211" y="157" width="1193" height="790" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
