@@ -5,57 +5,59 @@ package com.thoughtworks;
  */
 public class DiamondExercises {
 
-    String ast = "*";
+    private final String ast = "*";
 
-    void isoTriangle(int n) {
-
-//        for (int i = 1; i <= n; i += 2) {
-//            for (int k = 0; k < (4 - i / 2); k ++) {
-//                System.out.print(" ");
-//            }
-//            for (int j = 0; j < i; j ++) {
-//                System.out.print(ast);
-//            }
-//            System.out.println("");
-
-
+    public String isoTriangle(int n) {
+        StringBuilder output = new StringBuilder("");
         for (int i = 1;i <= n; i ++){
 
-            for (int k = 1; k <= n-i; k ++)
-                System.out.print(" ");
-
-            for (int j = 1; j <= 2 * i - 1; j ++)
-                System.out.print(ast);
-
-            System.out.println("");
-
-        }
-    }
-
-    void printDiamond(int n){
-        isoTriangle(n);
-        lowerTriangle(n - 1);
-    }
-
-    void lowerTriangle(int n) {
-        int starCounter = n;
-
-        for (int k = 1; k <= n; k ++){
-            for (int j =1; j <= k; j ++)
-                System.out.print(" ");
-
-            for (int star = 1; star <= 2*starCounter - 1; star ++) {
-                System.out.print(ast);
+            for (int k = 0; k <= n-i; k ++) {
+                output.append(" ");
             }
-            starCounter --;
-            System.out.println("");
+
+            for (int j = 1; j <= 2 * i - 1; j ++) {
+                output.append(ast);
+            }
+
+            for (int k = 0; k <= n-i; k ++) {
+                output.append(" ");
+            }
+
+            if (i < n) {
+                output.append("\n");
+            }
         }
+        return output.toString();
     }
 
-    void nameDiamond(int n, String name) {
-        isoTriangle(n-1);
-        System.out.println(name);
-        lowerTriangle(n-1);
+    public String printDiamond(int n){
+        StringBuilder topTriangle = new StringBuilder(isoTriangle(n));
+        StringBuilder bottomTriangle = new StringBuilder(lowerTriangle(n));
+
+        // The middle line will be duplicated, so remove the last line from the top triangle
+        int last = topTriangle.lastIndexOf("\n");
+        if (last >= 0) { topTriangle.delete(last, topTriangle.length()); }
+
+
+        StringBuilder output = new StringBuilder(topTriangle);
+        output.append("\n");
+        output.append(lowerTriangle(n));
+        output.append("\n");
+
+        return output.toString();
+    }
+
+    private String lowerTriangle(int n) {
+        return new StringBuilder(isoTriangle(n)).reverse().toString();
+    }
+
+    public String nameDiamond(int n, String name) {
+        StringBuilder output = new StringBuilder(isoTriangle(n-1));
+        output.append("\n");
+        output.append(name);
+        output.append("\n");
+        output.append(lowerTriangle(n-1));
+        return output.toString();
     }
 }
 
